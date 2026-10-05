@@ -1,6 +1,7 @@
 # Aequitas • NIST Beacon 2.0 Verifiable Public Randomizer
 
-[![Deploy to GitHub Pages](https://github.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/)
+[![Deploy to GitHub Pages](https://github.com/PisumSat/aequitas/actions/workflows/deploy.yml/badge.svg)](https://github.com/PisumSat/aequitas/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live_Site-pisumsat.github.io%2Faequitas-14b8a6?style=flat&logo=github)](https://pisumsat.github.io/aequitas/)
 [![NIST Randomness Beacon 2.0](https://img.shields.io/badge/Randomness_Source-NIST_Beacon_2.0-0d9488)](https://csrc.nist.gov/Projects/interoperable-randomness-beacons/beacon-20)
 [![Zero-Trust](https://img.shields.io/badge/Security-Zero--Trust_Pre--Commitment-6366f1)](#-the-cryptographic-protocol)
 [![Client-Side Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-10b981)](#-privacy--zero-backend)
@@ -74,8 +75,8 @@ Every result includes a dedicated **Audit & Verify Math** panel with:
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/PisumSat/aequitas.git
+cd aequitas
 
 # Install dependencies
 npm install
@@ -102,7 +103,7 @@ This repository includes an automated GitHub Actions workflow (`.github/workflow
 3. Under **Build and deployment** -> **Source**, select **GitHub Actions**.
 4. The site will automatically build and deploy to:
    ```
-   https://<your-username>.github.io/<repo-name>/
+   https://pisumsat.github.io/aequitas/
    ```
 
 ---
